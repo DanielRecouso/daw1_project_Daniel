@@ -1,0 +1,138 @@
+html{
+    
+    font-family: 'Hind Madurai','rubik' ;
+    font-size: 2em;
+    
+    
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+
+header{
+    color: #B50DDB;
+    background-color: black;
+    border-bottom: 8px solid #B50DDB; 
+    height: 8em;
+    margin-bottom: 0.5em;
+
+}
+header>h1{
+    display: flex;
+    justify-content: center;
+}
+header p{
+    position:relative;
+    top:100px;
+    left: 30px;
+}
+aside{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 0.5em;
+}
+#html{
+    color: #56C0DB;
+    width: 350px;
+    height: 450px;
+    background-color: black ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 10px;
+    border-style: groove;
+    flex-wrap: wrap;
+    margin: 0.5em;
+    
+}
+#html img{
+    border-top:8px solid #56C0DB;
+    border-bottom: 8px solid #56C0DB;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+#html p{
+   margin-top: 0px;
+   margin-bottom: 10px;
+}
+#html a{
+    color:#56C0DB ;
+}
+#cssjson{
+    color: #DB9555;
+    width: 350px;
+    height: 450px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border-style: groove;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    margin: 0.5em;
+}
+#cssjson img{
+    border-top:8px solid #DB9555;
+    border-bottom: 8px solid #DB9555;
+    display: flex;
+    margin-top: 40px;
+}
+#cssjson p{
+    margin-top: 0px;
+    margin-bottom: 10px;
+ }
+ #cssjson a{
+    color: #DB9555;
+ }
+#xml{
+    color: #A0DB4B;
+    width: 350px;
+    height: 450px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 10px;
+    border-style: groove;
+    flex-wrap: wrap;
+    margin: 0.5em;
+}
+#xml img{
+    border-top:8px solid #A0DB4B;
+    border-bottom: 8px solid #A0DB4B;
+    display: flex;
+    margin-top: 40px;
+    
+}
+#xml p{
+    margin-top: 0px;
+    margin-bottom: 10px;
+ }
+ #xml a{
+    color:#A0DB4B;
+ }
+footer{
+    color: #B50DDB;
+    background-color: black;
+    border-top: 8px solid #B50DDB; 
+    height: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 0.5em;
+}
+footer a{
+    letter-spacing: 0.1em;
+    color: #B50DDB;
+    margin-top: 32px;
+   
+}

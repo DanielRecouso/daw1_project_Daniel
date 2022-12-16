@@ -1,3 +1,11 @@
+Exercise 7:
+
+quiz.json -> 1.19KB 1019bytes
+quiz.xml -> 2KB 2000bytes
+
+
+Exercise 11:
+
 The Id attribute belongs to urn:example:Item01 because  
 that xmlns has the identificator  Item01 ( xmlns:Item01) which is the same 
 that we can see in the tag Iteminformation ( Item01:ItemInformation).
