@@ -1,0 +1,4 @@
+The Id attribute belongs to urn:example:Item01 because  
+that xmlns has the identificator  Item01 ( xmlns:Item01) which is the same 
+that we can see in the tag Iteminformation ( Item01:ItemInformation).
+If the tag has the identificator of the xmlns its childs will have the same identificator.
