@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<producers> <!--we need one root element-->
+<programs>
+	<program name="firefox" licence1="GPL" licence2="MPU"/> <!--licence names cant be the same since they are different licenses-->
+	<program name="LibreOffice"/> <!--name cant be in the closing tag -->
+	<program name="Inkscape" licence1="GPL"/> <!--GPL "" missing-->
+	<Program name="Chrome"/> <!--closing tag is not needed if u already specify the name in the tag-->
+	<program name = "Edge"/> <!--Edge was not into "name" tag-->
+
+</programs>
+
+	<producer> Microsoft </producer> <!--producer closing tag was bad formed: </ missing-->
+</producers>			
